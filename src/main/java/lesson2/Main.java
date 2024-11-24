@@ -13,7 +13,7 @@ public class Main {
         Third third = new Third();
         System.out.println(checkNegative(-1));
         Fourth fourth = new Fourth();
-        Fourth.printString();
+        Fourth.printString("Jojo", 5);
         Fifth fifth = new Fifth();
         Fifth.arraySwap();
         Sixth sixth = new Sixth();
