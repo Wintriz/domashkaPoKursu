@@ -2,14 +2,14 @@ package lesson4;
 
 public class Main {
     public static void main(String[] args) {
-        Cat cat = new Cat("Murzik",true, false, 200, 0);
+        Cat cat = new Cat("Murzik",true, false, 200);
 
         cat.sweaming(100);
         cat.running(150);
 
         Dog dog = new Dog("Bobik", true, true, 500, 10);
 
-        dog.sweaming(100);
+        dog.sweaming(9);
         dog.running(150);
 
 
