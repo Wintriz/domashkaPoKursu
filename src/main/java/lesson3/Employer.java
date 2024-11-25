@@ -17,7 +17,7 @@ public class Employer {
 
     @Override
     public String toString() {
-        return String.format(fio, jobTitle, email, phone, salary, age);
+        return String.format("%s, %s, %s, %s, %s, %s", fio, jobTitle, email, phone, salary, age);
     }
 
     public void setValues(String fio, String jobTitle, String email, int phone, int salary, int age) {
